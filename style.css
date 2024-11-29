@@ -1,0 +1,92 @@
+
+*{
+    font-family: "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    border-bottom:  1px solid #030308;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.125rem;
+ }
+ 
+
+h1,h2{
+   font-family: "Lora", serif;
+   font-weight: 400;
+}
+
+h1{ 
+   font-size: 3.5rem; /*  56px */
+    margin-bottom: 1rem;
+}
+h2{ 
+    font-size: 2rem; 
+     margin-bottom: 1rem;
+ }
+
+.leia, .catalogo, .inscreva{
+    font-size: 1.125rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.inscrevaButton{
+    background-color: #030308;
+    border-radius: 50px;
+    color: white;
+    display: block;
+    margin: 2rem auto;
+    padding:1rem 1.5rem;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img{
+    width: 500px;
+}
+
+.generos > li {
+    display: inline-block;
+    margin-top: 2rem ;
+}
+
+/* a estilização vai será aplicado apenas ao li que for seguido de outro li(não pegara no  primeiro e ou ultimo) */
+.generos > li + li {
+    margin-left:1rem ;
+    margin-top: 1rem; /*impede que os botões fiquem um em cima dou outro quando diminuir a tela*/
+}
+
+.genero > a, 
+.verMais > a{
+    background-color: #43abf6;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;/*permite que o margin-top funcione*/
+    padding:1rem 1.5rem ;
+    text-decoration: none;
+}
+
+.verMais > a{
+    background-color: #030308;
+    text-transform: uppercase;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Lora",serif;
+    padding: 2rem;
+   
+}
+
+
+
